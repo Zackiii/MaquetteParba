@@ -1,0 +1,375 @@
+/* proprietes du premier container */
+.container1 {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px teal;
+}
+
+
+/* disposition du premier contenaire */
+.container1 :first-child {
+    align-self: center;
+}
+
+
+/* position et marge des liens inscription et connexion */
+.letd1 {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+/* couleur de police des liens inscriptions */
+.letd1 a {
+    color: teal;
+}
+
+/* propietes du meunu */
+nav ul {
+    display: flex;
+    background-color: teal;
+    text-align: center;
+    width: 400px;
+    padding: 8px;
+}
+
+/* couleur police du menu et suppression du soulignement des liens */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* disposition des liens */
+a {
+    display: inline;
+
+}
+
+/* suppression des points des listes */
+ul {
+    list-style-type: none;
+}
+
+/* suppression du soulignement des liens */
+div a {
+
+    text-decoration: none;
+}
+
+/*  couleur arriere plan du corqs de la page*/
+body {
+    background-color: aliceblue;
+}
+
+/* affichage du 2e container  */
+.Container2 {
+    display: flex;
+    display: inline;
+}
+
+/* proprietes et disposition du 1er paragraphe Parba  */
+.floot {
+    display: inline-block;
+    margin: 0 300px;
+    width: 150px;
+    height: 100px;
+}
+
+/* proprietes et disposition de l'image tech life remote  */
+.foou {
+
+    display: inline-block;
+    margin: 10 300px;
+    width: 100px;
+    height: 100px;
+}
+
+/* proprietes et disposition de l'icone du bouton commencer  */
+.button {
+    background-image: linear-gradient(92.88deg, teal 9.16%, teal 43.89%, teal 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "SegoeUI"
+        , Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans", " Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* proprietes et et couleur de l'icone du bouton commencer   */
+.button:hover {
+    box-shadow: teal) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+/* taille de l'icone du bouton commencer  */
+@media (min-width: 768px) {
+    .button {
+        padding: 0 2.6rem;
+    }
+}
+
+/* proprietes et disposition de l'icone du bouton Mon reseau  */
+.button2 {
+    align-items: center;
+    background: #FFFFFF;
+    border: 1 solid teal;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: teal;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-color: teal;
+
+}
+
+/* proprietes et disposition du sous container 2 */
+.container21 {
+    display: inline-flex;
+    display: center;
+    size: 100px;
+}
+
+/* proprietes et disposition du bouton Commencer*/
+.buton1 {
+    margin: 0 350px;
+    width: 100px;
+    height: 100px;
+}
+
+/* proprietes et disposition du bouton  Mon reseau*/
+.buton2 {
+
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    border-color: teal;
+}
+
+/* proprietes et disposition du sous container 3 */
+.container3 {
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    text-size-adjust: 100px;
+}
+
+/* couleur de police des h1 dans le conteneur 3 */
+.container3 h1 {
+
+    color: white;
+}
+
+/* couleur de police des h1 et son alignement */
+h1 {
+    text-align: center;
+    color: #008080;
+}
+
+/* proprietes et disposition du sous container 4 */
+.container4 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    background-color: paleturquoise;
+
+}
+
+/* proprietes et disposition du chevron gauche */
+.chevronLeft {
+    padding-bottom: 100px;
+    margin-bottom: -160px;
+
+}
+
+/* proprietes et disposition du chevron gauche */
+.chevronRight {
+    padding-bottom: 100px;
+    margin-bottom: -160px;
+}
+
+/* proprietes et disposition de l'icone du chevron gauche */
+.chevronG {
+    position: relative;
+    margin-left: auto;
+
+}
+
+/* proprietes et disposition de l'icone du chevron droite */
+.chevronD {
+    d margin-right: auto;
+}
+
+/* proprietes et disposition du contenaire 4*/
+div.container4 i {
+    margin-bottom: 100px;
+}
+
+/* proprietes et disposition du conteneur 5 */
+.container5 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+/* proprietes et disposition du 1er cadre */
+.cadre1 {
+    width: auto;
+    height: auto;
+    border: 1px solid #008080;
+    padding: 50px;
+
+}
+
+/* proprietes et disposition de l'image dans le 1er cadre */
+.cadre1 img {
+    padding-top: -200px;
+    padding-bottom: 100px;
+    margin-top: -130px;
+    margin-left: 10px;
+}
+
+/* proprietes et disposition de l'image dans le 2e cadre */
+.cadre2 img {
+    padding-top: -200px;
+    padding-bottom: 80px;
+    margin-top: -130px;
+    margin-left: 10px;
+}
+
+/* proprietes et disposition du paragraph dans le 1er cadre */
+.cadre1 p {
+    margin-top: -100px;
+    text-align: center;
+}
+
+/* proprietes et disposition du paragraph dans le 2e cadre */
+.cadre2 p {
+    margin-top: -80px;
+    text-align: center;
+}
+
+/* proprietes et disposition du 1er cadre */
+.cadre2 {
+    width: auto;
+    height: auto;
+    border: 1px solid #008080;
+    padding: 40px;
+}
+
+/* affichage et disposition de l'icone du chevron gauche du cadre du container 5 */
+.icone11 {
+
+    display: flex;
+}
+
+/* affichage et disposition de l'icone du chevron droite du cadre du container 5 */
+.icone21 {
+    display: flex;
+}
+
+/* affichage et disposition du formulaire de contact */
+form span {
+    display: block;
+    color: white;
+    text-align: left;
+    margin-left: 200px;
+}
+
+/* affichage et disposition des inputs dans le formulaire*/
+
+form input {
+    height: 20px;
+    width: 400px;
+}
+
+/* propriete du text area*/
+form textarea {
+    width: 400px;
+}
+
+/* affichage et disposition du container 6 */
+.container6 {
+    padding: 40px;
+    width: 800px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: teal;
+}
+
+/* proprietes et disposition du conteneur 7 */
+.container7 {
+    padding: 40px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* disposition du premier contenaire */
+.container7 :first-child {
+    align-self: center;
+}
+
+/* disposition des icones des reseaux socials  */
+.icone3 {
+    display: grid;
+    padding-top: 70px;
+}
+
+/* affichage de des icones des reseaux socials */
+.icone4 i {
+    display: inline-flex;
+
+}
+
+/* dispositions des icones des reseaux socials */
+
+.icone4 {
+    padding-left: 130px;
+}
+
+/* disposition et proprietes du bas de page */
+
+footer {
+    background-color: black;
+    display: grid;
+    color: #FFFFFF;
+    padding: 0 450px;
+}
